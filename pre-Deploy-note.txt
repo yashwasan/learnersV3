@@ -1,0 +1,5 @@
+Change the localhost link in config.php
+
+
+<?php include($_SERVER['DOCUMENT_ROOT']."/learnersV2/php/config.php"); ?>
+remove the "learnersV2" path when upload to hosting..

@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?php echo $base_url; ?>vendors/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="<?php echo $base_url; ?>vendors/owlcarousel/owl.theme.default.min.css">

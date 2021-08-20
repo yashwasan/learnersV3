@@ -1,0 +1,59 @@
+.faq_hero_section{
+  background-image: url("../img/webp/faq-bg.webp");
+  height: 80vh;
+  width: 100%;
+  top: -60px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -99;
+
+}
+.faq_title{
+  padding-top: 8%;
+  font-size: 168px;
+}
+.book_cls_div{
+  background-color: #212f4d;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: -189px;
+}
+.book_cls_div .book_cls_btn{
+  position: absolute;
+  right: 15%;
+  top: 100px;
+
+}
+.four_dis{
+  position: relative;
+  top: -170px;
+  text-align: center!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 780px) {
+
+    .faq_title{
+      padding-top: 40%;
+      font-size: 55px;
+
+    }
+    .faq_hero_section{
+      height: auto!important;
+      width: auto!important;
+    }
+
+}

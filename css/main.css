@@ -1,0 +1,575 @@
+/* fonts here */
+@font-face {
+    font-family: 'Noe Display';
+    src: url('../fonts/noeDisplay/NoeDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/noeDisplay/NoeDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/jost/Jost-Bold.woff2') format('woff2'),
+        url('../fonts/jost/Jost-Bold.woff') format('woff'),
+        url('../fonts/jost/Jost-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+  --noe:  'Noe Display';
+  --jost: 'Jost';
+  --mont: 'montserrat';
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.title{
+  font-family: var(--noe);
+}
+
+ol.breadcrumb{
+  display: inline-flex;
+}
+
+.jost{
+  font-family: var(--jost);
+}
+.mont{
+  font-family: var(--mont);
+}
+.noe{
+  font-family: var(--noe);
+}
+
+/* custom scrool bar */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* button css here */
+.btn-primary, .btn-primary:focus
+{
+  background: rgb(42,104,255)!important;
+  background: -webkit-linear-gradient(left, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  background: -o-linear-gradient(left, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  background: linear-gradient(to right, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  border:none!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+.btn-primary:hover{
+  background: rgb(42,104,255);
+  background: -moz-linear-gradient(270deg, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  background: -webkit-linear-gradient(270deg, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  background: linear-gradient(270deg, rgba(42,104,255,1) 0%, rgba(194,255,1,1) 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a68ff",endColorstr="#c2ff01",GradientType=1)!important;
+
+  /* -webkit-transition: all 0.5s ease-in-out!important;
+   transition: all 0.5s ease-in-out!important;
+   transition-delay:5s; */
+}
+
+.navbar-toggler, .navbar-toggler:focus{
+  border:none!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+/* social bar icon at top */
+.social_bar a{
+  text-decoration: none;
+  color: #4f4f4b!important;
+}
+.social_bar{
+  border-bottom: 2px solid #535454;
+}
+
+/* nav bar css here */
+.navbar li{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.navbar li a{
+  color: #535454!important;
+  font-family: var(--jost);
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: #DCDC0D!important;
+}
+
+.text-green{
+  color: #15ed81!important;
+}
+
+.two-btn{
+  border: 2px solid #535454!important;
+}
+.two-btn:hover{
+  background-color: #DCDC0D!important;
+}
+
+.text-justified{
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 28px!important;
+}
+
+.blog-justified{
+  text-align: justify;
+  text-align: inter-word;
+}
+
+.space{
+  height: 50vh;
+}
+.carousel-inner{
+  transform: translate(13%,0%);
+  width:80%!important;
+}
+
+.owl-carousel .card{
+  border-radius: 52px!important;
+  color: #fff!important;
+  box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+}
+
+.card_1{
+  background-color: #DCDC0D!important;
+  color: #242526!important;
+}
+
+.card_2{
+  /* background-color: rgba(24,148,221,1)!important; */
+  background-color: #1894DD!important;
+  color: #f6f6f6!important;
+}
+
+.card_3{
+  /* background-color: rgba(220,220,13,1)!important; */
+  background-color: #DCDC0D!important;
+  color: #242526!important;
+}
+
+.card_4{
+  /* background-color: rgba(24,148,221,1)!important; */
+  background-color: #1894DD!important;
+  color: #f6f6f6!important;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /*remove the gap so it doesn't close*/
+ }
+
+.bg-manu-custom , .bg-transparent{
+  background: transparent!important;
+}
+
+.modal-menu{
+  font-size: 35px;
+}
+.btn-close{
+  color: #fff!important;
+}
+/* footer css here */
+.footer{
+  background-color: rgba(27,44,57,1)!important;
+}
+
+.footer .bar{
+  border-bottom: 2px solid #fff!important;
+  padding-bottom: 8px!important;
+}
+.footer  .nav-link {
+  display: inline-block;
+  position: relative;
+}
+.footer .nav-link:after {
+  /* background: none repeat scroll 0 0 transparent; */
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  /* left: 50%; */
+  position: absolute;
+  background: #fff;
+  transition: width 0.5s ease 0s;
+  width: 0;
+}
+.footer .nav-link:hover:after {
+  width: 85%;
+  /* left: 0; */
+}
+.footer_bottom_border{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+
+.ncert-group a{
+  text-decoration: none!important;
+  color:#fff!important;
+  padding: 5px;
+  margin-right: 10px;
+  line-height: 46px;
+}
+
+.border-end{
+  border-right: 8px solid #fff!important;
+}
+
+.border-bottom{
+  border-bottom: 3px solid #fff!important;
+}
+
+.border_after_footer_logo{
+  border-bottom: 3px solid #fff!important;
+}
+
+/* pdf reader */
+.carousel-control-next-icon{
+  background-color:#000;
+  position: absolute;
+  right: 65%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon{
+  background-color:#000!important;
+  position: absolute;
+  left: 70%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.pd_reset{
+  padding: 0!important;
+}
+
+/* utility */
+.size-19{
+  font-size: 20px!important;
+}
+.size-20{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.size-22{
+  font-size: 22px;
+}
+.size-14{
+  font-size: 14px;
+}
+.text-justified{
+  text-align: justify!important;
+}
+.underline-c{
+  text-decoration: underline;
+  text-decoration-color: #a4a4a4;
+  text-underline-offset: 2px;
+}
+.text-success{
+  color: #00ff32!important;
+}
+.text-black{
+  color: #000!important;
+}
+
+.res_pad{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.fw-600{
+  font-weight: 600!important;
+}
+.bd-radius{
+  border-radius: 8px!important;
+}
+
+.chapter_text{
+  text-align: justify!important;
+  text-justify: inter-word;
+  line-height:28px!important;
+}
+.footer_logo_container img{
+  padding-top: 40%!important;
+}
+.border-custom{
+  border: 2px solid #000;
+}
+
+.accordion-body{
+  text-align: justify!important;
+}
+
+/* all subject page for any class */
+.custom-card-border{
+  border-radius: 22px;
+  border: 2px solid #000;
+}
+.custom-card-border-with-radius{
+  border-radius: 40px;
+  border: 2px solid #000;
+  font-size: 18px;
+}
+/* ncert-Soluions.php */
+
+.subject_cards .subject_one-card{
+  border: 2px solid #000!important;
+  border-radius: 28px!important;
+}
+.subject_cards .card-header{
+  border-bottom: 2px solid #000!important;
+
+}
+.custom_card_explore_subs{
+  margin-left: 45px!important;
+  margin-right: 45px!important;
+  border: 2px solid #000!important;
+  border-radius: 12px;
+
+}
+.accordion-button:focus{
+  border-color: none;
+  box-shadow: none!important;
+  background-color: #DCDC0D!important;
+  color: #000;
+  outline: none!important;
+}
+
+
+/* ncert-e-books.php */
+.e-book-ul li::before{
+  content: '';
+  width: 5px;
+  height: 5px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #dcdc0d;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  left: 5px;
+}
+
+.tabs li{
+  margin-right: 15px;
+}
+
+.btn-custom-c, .btn-custom-c:focus{
+  border: 2px solid #000!important;
+  outline:none!important;
+  box-shadow: none!important;
+}
+.border-radious-c{
+  border-radius: 60px!important;
+}
+
+/* book a free trial class page */
+.book_a_free_class_div{
+  border-radius: 60px!important;
+  border: 3px solid #000!important;
+  margin-top: 15px;
+  box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  background-color: #fff!important;
+}
+.cls_header{
+  margin-left: 10px!important;
+  font-weight:600;
+}
+
+.book_a_cls_inpt, .book_a_cls_inpt:focus{
+  outline: none!important;
+  box-shadow: none!important;
+  border: none!important;
+  border-radius: 0!important;
+  border-bottom: 1px solid #a4a4a4!important;
+}
+.book_a_cls_inpt::placeholder, .form-select{
+  font-family: var(--jost)!important;
+  font-size: 14px!important;
+  font-weight: 600!important;
+  color: #858282;
+}
+
+.book_cls_bg{
+  background-color: #f4f4f4;
+}
+
+.book_a_free_class_div .btn-outline-warning{
+  margin-bottom: 8px!important;
+}
+
+.btn-light:hover{
+  background-color: #dcdc0d!important;
+}
+
+.ncert_title{
+  margin-left: 25px!important;
+}
+
+/* ============================= */
+.chapters{
+  border-radius: 55px;
+  border: 4px solid #000;
+}
+.subject-button,.subject-button:focus{
+  border:none!important;
+  outline: none!important;
+  box-shadow: none!important;
+  border: 3px solid  #000!important;
+  font-family: var(--jost);
+}
+
+.btn-outline-warning{
+  color: #000!important;
+  border-color: #000!important;
+  font-family: var(--jost);
+}
+.btn-warning{
+  background-color: #DCDC0D!important;
+  border: 1px solid #000!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+/* become a teacher page */
+.book_a_cls_file{
+  border-radius: 50px!important;
+  border: 3px solid #000!important;
+}
+
+.card_current_opening{
+  border: 2px solid #000!important;
+  border-radius: 28px!important;
+}
+
+/* contact us page */
+.contact_info_bg{
+  padding: 15px;
+  border-radius: 31px;
+  background-image: url("../img/contactbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact_info_img{
+  margin-right: 25px!important;
+}
+.contact_social_bottom{
+  margin-right: 12px!important;
+
+}
+
+/* build your career page */
+
+.career_card_box{
+  border: 2px solid #000!important;
+  box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 6px 9px 12px 0px rgba(0,0,0,0.24);
+}
+.career_opening_div .card{
+  cursor: pointer;
+}
+
+/* media screen responsive */
+@media only screen and (max-width: 600px) {
+  .border-end {
+    border:none!important;
+  }
+  .social-icons{
+    font-size: 15px!important;
+  }
+
+  .social_bar{
+    text-align: center!important;
+    position: static!important;
+  }
+
+  .nav-help-info{
+    text-align:center!important;
+    position: static!important;
+  }
+
+  .footer{
+    text-align: center!important;
+  }
+
+  .download-pdf-btn, .two-btn, .book_a_free_class_btn{
+    font-size: 14px!important;
+    padding:4px!important;
+  }
+
+  .bs_mobile_images img{
+    height: 400px;
+  }
+  .carousel-control-next-icon{
+    padding: 12px;
+    /* right: 49px; */
+  }
+  .carousel-control-prev-icon{
+    padding: 12px;
+  }
+
+  .mob_view_center{
+    text-align: center!important;
+  }
+  .footer_bottom_border_mob{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+
+  }
+  .mob_flex{
+    display: block!important;
+  }
+  .educator_intro{
+    width: 80%!important;
+  }
+
+}
+/* optional */
+.educator_intro{
+  /* width: 95%!important; */
+}
+
+@media only screen and (max-width: 992px)
+{
+  .footer_logo_container img{
+    padding-top: 50px!important;
+  }
+}
+
+.subject_img{
+  vertical-align: middle!important;
+  margin-top: 7px!important;
+}

@@ -1,0 +1,42 @@
+page remain:
+1. testimonials
+2. FAQ
+3. About us
+4. Teachers page
+5. Become a Teacher
+6. index page
+7. Contact us
+8. full page menu
+9. book a free trial class modal
+10. Share your experience (share your success story modal.)
+===========================================================
+
+
+1. popup for Timings
+ref : https://codepen.io/zeinab92/pen/xwWGWM
+
+3. card size (explore)
+4. width 348 height:342
+
+=============================================================
+issue>>
+card color update issue.. solved
+nav menu dwopdown text bold->>>set to fw-normal
+(ref page: chapter_5.php)
+
+stop looping the pdf reader slider.(page chapter_5)
+=============================================================
+
+22/07/2021 22:03
+note: footer a link hover effect underline with animation
+** pdf reader
+
+08/08/2021 plan
+1. book a free trial class page mob view all btn margin bottom issue. (done)
+2. footer a link hover effect underline with animation (done)
+3. all button hover effect
+
+NOTE:
+  1. btn primary hover transition delay.
+  2. owl slider pauser on hover.
+  

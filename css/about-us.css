@@ -1,0 +1,84 @@
+.hero_banner{
+  background-color: #1894DD;
+}
+.three_section{
+  background-color: #fff;
+  border-radius: 55px;
+  border: 2px solid #000;
+}
+.three_section .card{
+  background: transparent!important;
+}
+.three_section img{
+  border: 2px solid #000;
+}
+/* tmp code remove later */
+.founder_section .img_box{
+  height: 360px;
+  width: 350px;
+  background-color: #40bd13;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.founder_section .social-icon-gorup{
+  position: relative;
+  top: 55px;
+  right: -25px!important;
+}
+.founder_section .social-icon-gorup .social-icon a{
+  font-size: 35px;
+  color: #000!important;
+
+}
+
+.profound_teacher_img{
+  height: 250px;
+  width: 180px;
+  background-color: #40bd13;
+  /* margin-top: 35px; */
+  margin-right: 15px;
+}
+.teacher_info{
+  margin-top: 5px;
+}
+
+.teacher_info .social-icon a{
+  font-size: 25px;
+  color: #000!important;
+
+}
+.teacher_info  ul li a{
+  padding: 5px!important;
+}
+
+
+.unique_three_section .about_intro, .card-title{
+  text-align: left!important;
+}
+.testimonial_card{
+  border-radius: 45px!important;
+  color: #fff!important;
+}
+
+.bg-color-one{
+  background-color: #DCDC0D!important;
+}
+.bg-color-two{
+  background-color: #1894dd!important;
+}
+
+.team_member_slide .card{
+   margin: 15px!important;
+}
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+
+  .profound_teacher_img{
+    width: 100%!important;
+    justify-content: center;
+
+  }
+}

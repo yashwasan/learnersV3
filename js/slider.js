@@ -1,0 +1,25 @@
+// slider js
+   $('.owl-carousel').owlCarousel({
+   center:true,
+   item:3,
+   loop:true,
+   margin:12,
+   nav:false,
+   startPosition:1,
+   autoplay:true,
+   autoplayTimeout:2500,
+   dots:true,
+   responsiveClass:true,
+   responsive:{
+   0:{
+       items:1
+   },
+   600:{
+       items:1,
+       nav:true,
+   },
+   762:{
+       items:3
+   }
+   }
+   });

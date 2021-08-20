@@ -1,0 +1,74 @@
+24/07/2021 21:27
+old folder deleted
+
+
+1. Blog Index Page --done 26/07/2021
+* blog content page --done	26/07/2021
+2. NCERT Solutions Page  --done 25/07/2021
+	(e-books, cbse sample pprs)
+	Image Dimensions: W=677, H=691
+3. Subject Main Page
+4. All SUbject Class for Any Class
+5. ALL SUBJECTS PAGE FOR ANY CLASS done
+
+
+Note:
+main.CSS
+width: 80%; /*remove this tmp code and place the image height width*/
+=============================== Note for update =======================================
+
+1. subject main Page
+	-> remove breadcrumb on mobile device..
+	-> adjust the image size and right alignment.
+	-> center the Chapter buttons.(ul li)
+	-> increase font size of headlines
+	-> accordion on active box shadow remove! done
+
+2. blog index..
+	-> book a free trial class buttton gradient color done
+	-> remove on mobile menu btn -> set in fullpage.. done
+	-> decrease font(blogs title) size on mobile done
+	-> increase box side of video.
+
+3. blog1
+	-> icon gap done
+	-> justify text (blog contents) done
+	-> blockquote tag
+	-> dropcap
+	-> Form should be bootstrap 5.0 float label
+
+	-> random keywords in bottom ... re
+	-> search functionality
+	-> auto suggestion..
+
+	blog page comment section marquee slider(name,date,time, comment)
+=================== ========================
+fresh DB
+
+	.dropcap {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #a0ce4e;
+    float: left;
+    display: block;
+    margin-right: 36px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+
+========================= NOTE: ===================================
+city functionality.
+share your exp custom upload btn.
+
+
+
+========================= NOTE: ===================================
+18/08/2021
+
+1. about us page responsive done
+2. parent_testimonials design static 4 card... done
+
+become a teacher page
+1. parks & Benefits design....
